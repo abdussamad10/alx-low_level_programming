@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * *_memset - that fills memory with a constant byte
+ * _memset - that fills memory with a constant byte
  * @s: the memory area pointed
  * @b: the constant char byte
  * @n: bytes of the memory

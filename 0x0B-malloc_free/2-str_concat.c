@@ -1,11 +1,12 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
+
 /**
  * str_concat - get ends of input and add together for size
- * @s1: input one char
- * @s2: input two char
- * Rutern: pointer
+ * @s1: input one to concat
+ * @s2: input two to concat
+ * Return: pointer
  */
 char *str_concat(char *s1, char *s2)
 {

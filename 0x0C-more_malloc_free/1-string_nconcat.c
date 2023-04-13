@@ -12,7 +12,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	char *p;
 	unsigned int a = 0, b = 0, c = 0, d = 0;
 
-	while (s1 && s2[c])
+	while (s1 && s1[c])
 		c++;
 
 	while (s2 && s2[d])

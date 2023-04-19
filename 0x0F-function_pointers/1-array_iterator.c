@@ -4,9 +4,9 @@
 
 /**
  * array_iterator -  function given as a parameter on each element of an array.
- * @array; array
+ * @array: array
  * @size: size of the array
- * @actoin; pointers to the ffinction
+ * @action: pointers to the ffinction
  * Return: nothing
  */
 

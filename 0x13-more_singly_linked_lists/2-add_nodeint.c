@@ -8,7 +8,7 @@
  */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
-	int *ptr;
+	listint_t *ptr;
 
 	ptr = malloc(sizeof(int));
 	if (!ptr)

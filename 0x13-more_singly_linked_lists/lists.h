@@ -1,10 +1,13 @@
 #ifndef LISTS_H
 #define LISTS_H
-#include <stdef.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+typedef struct listint_t
+{
+        int n;
+        struct listint_t *next;
+} listint_t;
 size_t print_listint(const listint_t *h);
 size_t listint_len(const listint_t *h);
 listint_t *add_nodeint(listint_t **head, const int n);
@@ -16,9 +19,4 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);
 int sum_listint(listint_t *head);
 int delete_nodeint_at_index(listint_t **head, unsigned int index);
 
-typedef struct listint_t
-{
-	int n;
-	struct listint_t *next;
-} listint_t;
 #endif

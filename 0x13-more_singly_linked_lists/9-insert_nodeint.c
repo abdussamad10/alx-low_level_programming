@@ -5,8 +5,9 @@
  * @head: pointer list
  * @idx: index
  * @n: data to insert
+ * Return: pointer
  */
- 
+
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
 	listint_t *ptr;
@@ -27,9 +28,10 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		*head = ptr;
 		return (ptr);
 	}
+
 	for (; p && a < idx; a++)
 	{
-		if (a == idx -1)
+		if (a == idx - 1)
 		{
 			ptr->next = p->next;
 			p->next = ptr;
@@ -38,6 +40,6 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		else
 			p = p->next;
 	}
+
 	return (NULL);
 }
-	

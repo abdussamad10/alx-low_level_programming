@@ -1,7 +1,9 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
- * print_binary - function that prints the binary representation of a number.
+ * print_binary - function that prints the binary
+ * representation of a number.
  * @n: binary representation of a number.
  */
 
@@ -16,7 +18,8 @@ void print_binary(unsigned long int n)
 		return;
 	}
 
-	for (a = n, b = 0; (a <<= 1) > 0; b++);
+	for (a = n, b = 0; (a <<= 1) > 0; b++)
+		;
 
 	for (; b >= 0; b--)
 	{

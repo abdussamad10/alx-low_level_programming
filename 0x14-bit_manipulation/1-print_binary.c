@@ -7,8 +7,8 @@
 
 void print_binary(unsigned long int n)
 {
-	unsigned long int a = n;
-	int b = 0;
+	unsigned long int a;
+	int b;
 
 	if (n == 0)
 	{
@@ -16,7 +16,7 @@ void print_binary(unsigned long int n)
 		return;
 	}
 
-	for (; (a <<= 1) > 0; b++);
+	for (a = n; b = 0; (a <<= 1) > 0; b++);
 
 	for (; b >= 0; c++)
 	{

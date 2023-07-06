@@ -18,7 +18,7 @@ void print_binary(unsigned long int n)
 
 	for (a = n; b = 0; (a <<= 1) > 0; b++);
 
-	for (; b >= 0; c++)
+	for (; b >= 0; b--)
 	{
 		if ((n >> b) & 1)
 			printf("1");

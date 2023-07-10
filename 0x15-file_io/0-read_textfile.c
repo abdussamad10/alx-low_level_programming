@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * read_textfile - reads a text file and prints it to the POSIX standard output.
+ * read_textfile - reads a text file and prints it to the POSIX standard output
  * @filename: pointer
- * @litters: number
+ * @letters: number
  * Return: w- actual number of bytes read and printed
  * 0 when function fails or filename is NULL
  */

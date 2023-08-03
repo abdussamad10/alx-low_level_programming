@@ -1,14 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 
-/*
- *
- * Returns a value of a given index
- * 
- * Number to check the value
- * 
- * Always Return: value at given index or -1 if an error occours
- *
+/**
+ * get_bit - Returns a value of a given index
+ * @index: ind
+ * @n: Number to check the value
+ * Return: value at given index or -1 if an error occours
  */
 
 

@@ -1,15 +1,15 @@
 #include "main.h"
 
-/*
- * Flip_bits - Returns the number of bits you would need to flip to get from one number to another.
+/**
+ * flip_bits - Returns the number of bits you would need to flip
+ * @n: nu
+ * @m: m
  *
- * 
- * Always Return the number of bits you would need to flip
+ * Return: the number of bits you would need to flip
  *
  */
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
-
 {
 	unsigned long int result;
 	unsigned long int count;

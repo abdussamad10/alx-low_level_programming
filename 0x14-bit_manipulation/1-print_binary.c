@@ -3,12 +3,10 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-/*
- *
- * Prints the binary representation of a number
- * 
+/**
+ * print_binary - Prints the binary representation of a number
+ * @n: number
  * Return: nothing
- *
  */
 
 void print_binary(unsigned long int n)
